@@ -1,0 +1,48 @@
+[
+    {
+        "type": "xydac_forms",
+        "schema": {
+            "name": "contact-us",
+            "description": "Contact Us Form",
+            "content_html": "<h1>\r\n\tPlease fill below form\r\n<\/h1>\r\n[CONTENT]",
+            "content_css": ".contact-us{\r\n\tmax-width:600px;\r\n    margin: 0 auto;\r\n}\r\n.contact-us p.xydac-custom-meta {\r\n    position: relative;\r\n}\r\n.response{\r\n\tpadding: 10px;\r\n\tbackground: #ccf1cc;\r\n\tcolor: #020202;\r\n\tborder: 1px solid #3cb93c; \r\n\tmargin: 5px;\r\n}",
+            "content_js": "",
+            "sendmail": {
+                "active": "true",
+                "to": "testmail@gmail.com",
+                "subject": "Test Email",
+                "from": "testmail@gmail.com",
+                "template": "You have received a message from website:\r\n \r\n##name## with ##email## has sent below message\r\n##message##\r\n\r\nSent by ##name##\r\n\r\n"
+            }
+        },
+        "fields": [
+            {
+                "field_name": "name",
+                "field_label": "Your Name",
+                "field_type": "text",
+                "field_has_multiple": "false",
+                "field_desc": "Your Name",
+                "field_val": "",
+                "field_order": "1"
+            },
+            {
+                "field_name": "email",
+                "field_label": "Your Email",
+                "field_type": "text",
+                "field_has_multiple": "false",
+                "field_desc": "Your Email",
+                "field_val": "",
+                "field_order": "2"
+            },
+            {
+                "field_name": "message",
+                "field_label": "Message",
+                "field_type": "textarea",
+                "field_has_multiple": "false",
+                "field_desc": "Message",
+                "field_val": "",
+                "field_order": "3"
+            }
+        ]
+    }
+]
