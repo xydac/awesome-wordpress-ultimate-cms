@@ -9,5 +9,5 @@ Import the shortcode in WordPress Ultimate CMS and activate it.
 ## Usage
 
 ```
-[xys_card-dynamic color="purple" link="google.com" ]Voila [/xys_card-dynamic-1]
+[xys_card-dynamic color="purple" link="google.com" ]Voila [/xys_card-dynamic]
 ```
