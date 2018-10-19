@@ -1,0 +1,22 @@
+[
+  {
+    "type": "xydac_archive_type",
+    "schema": {
+      "name": "basic-post-table",
+      "query": "post_type=post&posts_per_page=10",
+      "description": "A very basic post listing in a table format",
+      "args": {
+        "width": "",
+        "cols": "1",
+        "rows": "1",
+        "beforeloop": "<table>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th width=\\\"75%\\\">Post Name</th>\r\n\t\t\t<th>Post Date</th>\r\n\t\t</tr>\r\n\t</thead>\r\n<tbody>\r\n",
+        "customhtml": "<tr>\r\n\t<td>\r\n\t\t<h4>\r\n\t\t\t<a href=\\\"[x_permalink]\\\">[x_title]</a>\r\n\t\t</h4>\r\n\t\t<span class=\\\"excerpt\\\">[x_excerpt]</span>\r\n\t</td>\r\n\t<td>\r\n\t\t[x_date]\r\n\t</td>\r\n</tr>",
+        "afterloop": "</tbody></table>",
+        "tablemode": "true"
+      },
+      "customcss": ".excerpt{\r\n\tdisplay:block;\r\n}",
+      "customscript": ""
+    },
+    "fields": null
+  }
+]
